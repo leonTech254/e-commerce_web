@@ -1,0 +1,17 @@
+.modal-content
+{
+    
+    background:linear-gradient(to left,rgba(10, 167, 198),rgb(59, 117, 0));
+}
+.modal-content *+*
+{
+    margin-top: .5rem;
+}
+.modal-content form input{
+    background: none;
+}
+.error
+{
+    background: transparent;
+    border:none;
+}

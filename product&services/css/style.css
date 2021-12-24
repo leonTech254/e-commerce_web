@@ -1,0 +1,61 @@
+.side-bar
+{
+    background-color:rgb(10, 167, 198);
+    height: 100vh;
+    border-right: 2px solid black;
+    border-radius:.5rem;
+    box-shadow: 3px 3px 3px black;
+}
+.side-bar
+{
+    transition: 2s;
+
+}
+.close
+{
+    margin-left: -10rem;
+}
+.item-wrapper ul li
+{
+display: block;
+text-align: center;
+margin-top: 2.5rem;
+border-bottom: 1px solid black;
+}
+.item-wrapper ul li a
+{
+    text-decoration: none;
+text-transform: capitalize;
+color:white;
+transition: .5s;
+}
+.item-wrapper ul li:hover a
+{
+color: blueviolet;
+font-size: 1.4rem;
+
+}
+.products *+*
+{
+    margin-left: .5rem;
+}
+.zoom
+{
+    
+    position: absolute;
+    top: 3rem;
+    right: 50%;
+    width: 40px;
+    animation: zoom 1s ease forwards;
+    
+}
+@keyframes zoom {
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity:0; right:40px;top: -3rem;}
+    
+}
+li
+{
+    list-style: none;
+}

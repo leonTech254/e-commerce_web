@@ -1,0 +1,34 @@
+body
+{
+    background:linear-gradient(to left,rgba(69, 11, 193, 0.9),rgba(79, 203, 8, 0.7)),url("/projects/mitchelle/images/background/bg1.jpg");
+}
+.document-field
+{
+    margin: auto;
+    margin-top: 100px;
+    font-style: italic;
+    color: maroon;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px rgb(14, 174, 120);
+    
+    ;
+}
+.document-field h1
+{
+ font-family: 'Ewert';  
+ text-shadow: 3px 3px 3px blue;
+}
+button
+{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+.document-field ul
+{
+    list-style: none;
+    list-style-type:upper-roman;
+}
+.document-field:hover
+{
+    box-shadow: 3px 3px 5px rgb(86, 235, 0); 
+}

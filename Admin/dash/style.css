@@ -1,0 +1,16 @@
+body
+{
+    background-image:linear-gradient(to left,rgba(0,0,0,1),rgba(227, 11, 11, 0.5)),url("/projects/mitchelle/images/background/leon7.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+.jumbotron
+{
+    background: none;
+    margin: auto;
+    margin-top: 100px;
+    width: 30rem;
+    box-shadow: 3px 3px 3px blanchedalmond;
+    text-align: center;
+}

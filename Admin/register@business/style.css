@@ -1,0 +1,27 @@
+.buss-form
+{
+    box-shadow: 3px 3px 3px whitesmoke;
+}
+.buss-form *+*
+{
+  margin-top: .5rem;  
+}
+
+.buss-form input
+{
+    background: none;
+    color: green;
+}
+.buss-form input:focus
+{
+    background: none;
+    color: red;
+}
+.registered-buss *+*
+{
+    margin-left: .5rem;
+}
+.registered-buss
+{
+font-size:1.5rem;
+}

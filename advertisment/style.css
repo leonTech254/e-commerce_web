@@ -1,0 +1,21 @@
+.container
+{
+    width: 100%;
+    height: 30rem;
+    box-shadow: 4px 4px 4px black;
+}
+
+.item{
+    width: 100%;
+    height: 30rem;
+   
+}
+.biz
+{
+    margin-top: 1.5rem;
+    box-shadow: -4px -4px 4px black;
+}
+.biz *+*
+{
+margin-left: .5rem;
+}

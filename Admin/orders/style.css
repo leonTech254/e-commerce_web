@@ -1,0 +1,32 @@
+body *+*
+{
+    margin-left: .5rem;
+}
+.mynav
+{
+    box-shadow: 3px 3px 3px  black;
+    transition: 2s;
+  
+}
+.mynav .jumbotron:hover
+{
+transform: translateX(2px);
+transition: 2s;
+color: aqua;
+background-color: green;
+cursor: pointer;
+
+}
+.mynav .jumbotron:hover h1
+{
+transition: 2s;
+text-decoration: underline;
+}
+.display
+{
+display: none;
+}
+.active-tab-nav
+{
+    background-color: aqua;
+}

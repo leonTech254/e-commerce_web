@@ -1,0 +1,27 @@
+.profile-pic
+{
+width: 30rem;
+border: 1px solid black;
+border-radius: .5rem;
+
+}
+body
+{
+    overflow-x: hidden;
+}
+.profile-pic *+*
+{
+    margin-bottom: .5rem;
+    background: none;
+    
+}
+
+.pay-container
+{
+    box-shadow: -3px 3px 5px black;
+}
+.pay-container:hover 
+{
+    box-shadow: -3px 3px 5px yellowgreen;
+    
+}

@@ -1,0 +1,20 @@
+body *+*
+{
+   
+    margin-top: .5rem;
+}
+
+form
+{
+    width: 30rem;
+    box-shadow: 3px 3px 3px black;
+
+}
+.products .jumbotron
+{
+margin-left: .5rem;
+}
+#hello
+{
+    display: none;
+}
